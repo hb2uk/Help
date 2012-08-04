@@ -1,10 +1,34 @@
 /*!
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI 1.8.11
 *
@@ -312,12 +336,36 @@ $.extend( $.ui, {
 
 })( jQuery );
 /*!
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Widget 1.8.11
 *
@@ -579,12 +627,36 @@ $.Widget.prototype = {
 
 })( jQuery );
 /*!
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Mouse 1.8.11
 *
@@ -740,12 +812,36 @@ $.widget("ui.mouse", {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Position 1.8.11
 *
@@ -997,12 +1093,36 @@ if ( !$.offset.setOffset ) {
 
 }( jQuery ));
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Draggable 1.8.11
 *
@@ -1801,12 +1921,36 @@ $.ui.plugin.add("draggable", "zIndex", {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Droppable 1.8.11
 *
@@ -2091,12 +2235,36 @@ $.ui.ddmanager = {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Resizable 1.8.11
 *
@@ -2908,12 +3076,36 @@ var isNumber = function(value) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Selectable 1.8.11
 *
@@ -3179,12 +3371,36 @@ $.extend($.ui.selectable, {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Sortable 1.8.11
 *
@@ -4257,12 +4473,36 @@ $.extend($.ui.sortable, {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Accordion 1.8.11
 *
@@ -4873,12 +5113,36 @@ $.extend( $.ui.accordion, {
 
 })( jQuery );
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Autocomplete 1.8.11
 *
@@ -5307,12 +5571,36 @@ $.extend( $.ui.autocomplete, {
 }( jQuery ));
 
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Menu (not officially released)
 * 
@@ -5495,12 +5783,36 @@ $.widget("ui.menu", {
 
 }(jQuery));
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Button 1.8.11
 *
@@ -5887,12 +6199,36 @@ $.widget( "ui.buttonset", {
 
 }( jQuery ) );
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Dialog 1.8.11
 *
@@ -6749,12 +7085,36 @@ $.extend($.ui.dialog.overlay.prototype, {
 
 }(jQuery));
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Slider 1.8.11
 *
@@ -7436,12 +7796,36 @@ $.extend( $.ui.slider, {
 
 }(jQuery));
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Tabs 1.8.11
 *
@@ -8199,12 +8583,36 @@ $.extend( $.ui.tabs.prototype, {
 
 })( jQuery );
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Datepicker 1.8.11
 *
@@ -9977,12 +10385,36 @@ window['DP_jQuery_' + dpuuid] = $;
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Progressbar 1.8.11
 *
@@ -10090,12 +10522,36 @@ $.extend( $.ui.progressbar, {
 
 })( jQuery );
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects 1.8.11
 *
@@ -10635,13 +11091,37 @@ $.fn.extend({
 /******************************************************************************/
 
 /*
- * Note: While Microsoft is not the author of this file, Microsoft is
- * offering you a license subject to the terms of the Microsoft Software
- * License Terms for Microsoft ASP.NET Model View Controller 3.
- * Microsoft reserves all other rights. The notices below are provided
- * for informational purposes only and are not the license terms under
- * which Microsoft distributed this file.
- *
+ * Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
+*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *
  * Uses the built in easing capabilities added In jQuery 1.1
@@ -10788,13 +11268,36 @@ $.extend($.easing,
 });
 
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
 *
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * Copyright 2001 Robert Penner
 * All rights reserved.
@@ -10804,12 +11307,36 @@ $.extend($.easing,
 })(jQuery);
 /*
 
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Blind 1.8.11
 *
@@ -10858,12 +11385,36 @@ $.effects.blind = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Bounce 1.8.11
 *
@@ -10942,12 +11493,36 @@ $.effects.bounce = function(o) {
 })(jQuery);
 /*
 
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Clip 1.8.11
 *
@@ -11001,12 +11576,36 @@ $.effects.clip = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Drop 1.8.11
 *
@@ -11056,12 +11655,36 @@ $.effects.drop = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Explode 1.8.11
 *
@@ -11140,12 +11763,36 @@ $.effects.explode = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Fade 1.8.11
 *
@@ -11177,12 +11824,36 @@ $.effects.fade = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Fold 1.8.11
 *
@@ -11238,12 +11909,36 @@ $.effects.fold = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Highlight 1.8.11
 *
@@ -11293,12 +11988,36 @@ $.effects.highlight = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Pulsate 1.8.11
 *
@@ -11349,12 +12068,36 @@ $.effects.pulsate = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Scale 1.8.11
 *
@@ -11532,12 +12275,36 @@ $.effects.size = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Shake 1.8.11
 *
@@ -11594,12 +12361,36 @@ $.effects.shake = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Slide 1.8.11
 *
@@ -11649,12 +12440,36 @@ $.effects.slide = function(o) {
 
 })(jQuery);
 /*
-* Note: While Microsoft is not the author of this file, Microsoft is
-* offering you a license subject to the terms of the Microsoft Software
-* License Terms for Microsoft ASP.NET Model View Controller 3.
-* Microsoft reserves all other rights. The notices below are provided
-* for informational purposes only and are not the license terms under
-* which Microsoft distributed this file.
+* Note: While Microsoft is not the author of this script file, Microsoft
+* grants you the right to use this file for the sole purpose of either: 
+* (i) interacting through your browser with the Microsoft website, subject 
+* to the website's terms of use; or (ii) using the files as included with a
+* Microsoft product subject to the Microsoft Software License Terms for that
+* Microsoft product. Microsoft reserves all other rights to the files not 
+* expressly granted by Microsoft, whether by implication, estoppel or
+* otherwise. The notices and licenses below are for informational purposes 
+* only.
+*
+* Provided for Informational Purposes Only
+* MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a
+* copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation
+* the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+* and/or sell copies of the Software, and to permit persons to whom the 
+* Software is furnished to do so, subject to the following conditions:
+*
+* The copyright notice and this permission notice shall be included in all 
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+* DEALINGS IN THE SOFTWARE.
 *
 * jQuery UI Effects Transfer 1.8.11
 *
