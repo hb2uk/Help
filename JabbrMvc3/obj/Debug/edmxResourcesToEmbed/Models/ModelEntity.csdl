@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelEntities" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="JabbrContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="aspnet_Applications" EntityType="ModelEntities.aspnet_Applications" />
+    <EntitySet Name="aspnet_Membership" EntityType="ModelEntities.aspnet_Membership" />
+    <EntitySet Name="aspnet_Paths" EntityType="ModelEntities.aspnet_Paths" />
+    <EntitySet Name="aspnet_PersonalizationAllUsers" EntityType="ModelEntities.aspnet_PersonalizationAllUsers" />
+    <EntitySet Name="aspnet_PersonalizationPerUser" EntityType="ModelEntities.aspnet_PersonalizationPerUser" />
+    <EntitySet Name="aspnet_Profile" EntityType="ModelEntities.aspnet_Profile" />
+    <EntitySet Name="aspnet_Roles" EntityType="ModelEntities.aspnet_Roles" />
+    <EntitySet Name="aspnet_SchemaVersions" EntityType="ModelEntities.aspnet_SchemaVersions" />
+    <EntitySet Name="aspnet_Users" EntityType="ModelEntities.aspnet_Users" />
+    <EntitySet Name="aspnet_WebEvent_Events" EntityType="ModelEntities.aspnet_WebEvent_Events" />
+    <EntitySet Name="ASPStateTempApplications" EntityType="ModelEntities.ASPStateTempApplication" />
+    <EntitySet Name="ASPStateTempSessions" EntityType="ModelEntities.ASPStateTempSession" />
+    <EntitySet Name="Clients" EntityType="ModelEntities.ChatClient" />
+    <EntitySet Name="Messages" EntityType="ModelEntities.ChatMessage" />
+    <EntitySet Name="Members" EntityType="ModelEntities.Member" />
+    <EntitySet Name="CreditAccount" EntityType="ModelEntities.Member_CreditAccount" />
+    <EntitySet Name="Member_CreditTransaction" EntityType="ModelEntities.Member_CreditTransaction" />
+    <EntitySet Name="Member_FileArchive" EntityType="ModelEntities.Member_FileArchive" />
+    <AssociationSet Name="FK__aspnet_Me__Appli__2FCF1A8A" Association="ModelEntities.FK__aspnet_Me__Appli__2FCF1A8A">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pa__Appli__2B0A656D" Association="ModelEntities.FK__aspnet_Pa__Appli__2B0A656D">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__2BFE89A6" Association="ModelEntities.FK__aspnet_Ro__Appli__2BFE89A6">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__29221CFB" Association="ModelEntities.FK__aspnet_Us__Appli__29221CFB">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__30C33EC3" Association="ModelEntities.FK__aspnet_Me__UserI__30C33EC3">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__2CF2ADDF" Association="ModelEntities.FK__aspnet_Pe__PathI__2CF2ADDF">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__PathI__31B762FC" Association="ModelEntities.FK__aspnet_Pe__PathI__31B762FC">
+      <End Role="aspnet_Paths" EntitySet="aspnet_Paths" />
+      <End Role="aspnet_PersonalizationAllUsers" EntitySet="aspnet_PersonalizationAllUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pe__UserI__2DE6D218" Association="ModelEntities.FK__aspnet_Pe__UserI__2DE6D218">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_PersonalizationPerUser" EntitySet="aspnet_PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__2EDAF651" Association="ModelEntities.FK__aspnet_Pr__UserI__2EDAF651">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Member_CreditAccount_Member" Association="ModelEntities.FK_Member_CreditAccount_Member">
+      <End Role="Member" EntitySet="Members" />
+      <End Role="Member_CreditAccount" EntitySet="CreditAccount" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Member_CreditTransaction_Member" Association="ModelEntities.FK_Member_CreditTransaction_Member">
+      <End Role="Member" EntitySet="Members" />
+      <End Role="Member_CreditTransaction" EntitySet="Member_CreditTransaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Member_FileArchive_Member" Association="ModelEntities.FK_Member_FileArchive_Member">
+      <End Role="Member" EntitySet="Members" />
+      <End Role="Member_FileArchive" EntitySet="Member_FileArchive" />
+    </AssociationSet>
+    <AssociationSet Name="aspnet_UsersInRoles" Association="ModelEntities.aspnet_UsersInRoles">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <EntitySet Name="Rooms" EntityType="ModelEntities.ChatRoom" />
+    <EntitySet Name="Users" EntityType="ModelEntities.ChatUser" />
+    <AssociationSet Name="FK_ChatClients_ChatUsers_User_Key" Association="ModelEntities.FK_ChatClients_ChatUsers_User_Key">
+      <End Role="User" EntitySet="Users" />
+      <End Role="ConnectedClients" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChatMessages_ChatRooms_Room_Key" Association="ModelEntities.FK_ChatMessages_ChatRooms_Room_Key">
+      <End Role="Messages" EntitySet="Rooms" />
+      <End Role="Room" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChatMessages_ChatUsers_User_Key" Association="ModelEntities.FK_ChatMessages_ChatUsers_User_Key">
+      <End Role="Messages" EntitySet="Users" />
+      <End Role="User" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="OwnedRooms" Association="ModelEntities.FK_ChatRooms_ChatUsers_Creator_Key">
+      <End Role="OwnedRooms" EntitySet="Users" />
+      <End Role="Creator" EntitySet="Rooms" />
+    </AssociationSet>
+    <AssociationSet Name="ChatRoomChatUsers" Association="ModelEntities.ChatRoomChatUsers">
+      <End Role="Users" EntitySet="Rooms" />
+      <End Role="Rooms" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="ChatUserChatRooms" Association="ModelEntities.ChatUserChatRooms">
+      <End Role="AllowedUsers" EntitySet="Rooms" />
+      <End Role="AllowedRooms" EntitySet="Users" />
+    </AssociationSet>
+    <EntitySet Name="Chat_Request" EntityType="ModelEntities.Chat_Request" />
+  </EntityContainer>
+  <EntityType Name="aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredApplicationName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="ModelEntities.FK__aspnet_Me__Appli__2FCF1A8A" FromRole="aspnet_Applications" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="ModelEntities.FK__aspnet_Pa__Appli__2B0A656D" FromRole="aspnet_Applications" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="ModelEntities.FK__aspnet_Ro__Appli__2BFE89A6" FromRole="aspnet_Applications" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ModelEntities.FK__aspnet_Us__Appli__29221CFB" FromRole="aspnet_Applications" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordFormat" Type="Int32" Nullable="false" />
+    <Property Name="PasswordSalt" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="MobilePIN" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredEmail" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordQuestion" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordAnswer" Type="String" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="IsLockedOut" Type="Boolean" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="DateTime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="Int32" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="DateTime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="Int32" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="DateTime" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="ModelEntities.FK__aspnet_Me__Appli__2FCF1A8A" FromRole="aspnet_Membership" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ModelEntities.FK__aspnet_Me__UserI__30C33EC3" FromRole="aspnet_Membership" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Paths">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="PathId" Type="Guid" Nullable="false" />
+    <Property Name="Path" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredPath" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="ModelEntities.FK__aspnet_Pa__Appli__2B0A656D" FromRole="aspnet_Paths" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="ModelEntities.FK__aspnet_Pe__PathI__2CF2ADDF" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationPerUser" />
+    <NavigationProperty Name="aspnet_PersonalizationAllUsers" Relationship="ModelEntities.FK__aspnet_Pe__PathI__31B762FC" FromRole="aspnet_Paths" ToRole="aspnet_PersonalizationAllUsers" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationAllUsers">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="PathId" Type="Guid" Nullable="false" />
+    <Property Name="PageSettings" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="ModelEntities.FK__aspnet_Pe__PathI__31B762FC" FromRole="aspnet_PersonalizationAllUsers" ToRole="aspnet_Paths" />
+  </EntityType>
+  <EntityType Name="aspnet_PersonalizationPerUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="PathId" Type="Guid" />
+    <Property Name="UserId" Type="Guid" />
+    <Property Name="PageSettings" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Paths" Relationship="ModelEntities.FK__aspnet_Pe__PathI__2CF2ADDF" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Paths" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ModelEntities.FK__aspnet_Pe__UserI__2DE6D218" FromRole="aspnet_PersonalizationPerUser" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Profile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="PropertyNames" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PropertyValuesString" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PropertyValuesBinary" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ModelEntities.FK__aspnet_Pr__UserI__2EDAF651" FromRole="aspnet_Profile" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredRoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="ModelEntities.FK__aspnet_Ro__Appli__2BFE89A6" FromRole="aspnet_Roles" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="ModelEntities.aspnet_UsersInRoles" FromRole="aspnet_Roles" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_SchemaVersions">
+    <Key>
+      <PropertyRef Name="Feature" />
+      <PropertyRef Name="CompatibleSchemaVersion" />
+    </Key>
+    <Property Name="Feature" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="CompatibleSchemaVersion" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="IsCurrentVersion" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="aspnet_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredUserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="MobileAlias" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="IsAnonymous" Type="Boolean" Nullable="false" />
+    <Property Name="LastActivityDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="ModelEntities.FK__aspnet_Us__Appli__29221CFB" FromRole="aspnet_Users" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="ModelEntities.FK__aspnet_Me__UserI__30C33EC3" FromRole="aspnet_Users" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_PersonalizationPerUser" Relationship="ModelEntities.FK__aspnet_Pe__UserI__2DE6D218" FromRole="aspnet_Users" ToRole="aspnet_PersonalizationPerUser" />
+    <NavigationProperty Name="aspnet_Profile" Relationship="ModelEntities.FK__aspnet_Pr__UserI__2EDAF651" FromRole="aspnet_Users" ToRole="aspnet_Profile" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="ModelEntities.aspnet_UsersInRoles" FromRole="aspnet_Users" ToRole="aspnet_Roles" />
+  </EntityType>
+  <EntityType Name="aspnet_WebEvent_Events">
+    <Key>
+      <PropertyRef Name="EventId" />
+    </Key>
+    <Property Name="EventId" Type="String" Nullable="false" MaxLength="32" Unicode="false" FixedLength="true" />
+    <Property Name="EventTimeUtc" Type="DateTime" Nullable="false" />
+    <Property Name="EventTime" Type="DateTime" Nullable="false" />
+    <Property Name="EventType" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="EventSequence" Type="Decimal" Nullable="false" Precision="19" Scale="0" />
+    <Property Name="EventOccurrence" Type="Decimal" Nullable="false" Precision="19" Scale="0" />
+    <Property Name="EventCode" Type="Int32" Nullable="false" />
+    <Property Name="EventDetailCode" Type="Int32" Nullable="false" />
+    <Property Name="Message" Type="String" MaxLength="1024" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationPath" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationVirtualPath" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="MachineName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="RequestUrl" Type="String" MaxLength="1024" Unicode="true" FixedLength="false" />
+    <Property Name="ExceptionType" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Details" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ASPStateTempApplication">
+    <Key>
+      <PropertyRef Name="AppId" />
+    </Key>
+    <Property Name="AppId" Type="Int32" Nullable="false" />
+    <Property Name="AppName" Type="String" Nullable="false" MaxLength="280" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="ASPStateTempSession">
+    <Key>
+      <PropertyRef Name="SessionId" />
+    </Key>
+    <Property Name="SessionId" Type="String" Nullable="false" MaxLength="88" Unicode="true" FixedLength="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" />
+    <Property Name="Expires" Type="DateTime" Nullable="false" />
+    <Property Name="LockDate" Type="DateTime" Nullable="false" />
+    <Property Name="LockDateLocal" Type="DateTime" Nullable="false" />
+    <Property Name="LockCookie" Type="Int32" Nullable="false" />
+    <Property Name="Timeout" Type="Int32" Nullable="false" />
+    <Property Name="Locked" Type="Boolean" Nullable="false" />
+    <Property Name="SessionItemShort" Type="Binary" MaxLength="7000" FixedLength="false" />
+    <Property Name="SessionItemLong" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Flags" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChatClient">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Name="Key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="User_Key" Type="Int32" Nullable="false" />
+    <Property Name="UserAgent" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LastActivity" Type="DateTimeOffset" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="ModelEntities.FK_ChatClients_ChatUsers_User_Key" FromRole="ConnectedClients" ToRole="User" />
+  </EntityType>
+  <EntityType Name="ChatMessage" a:TypeAccess="Public" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Name="Key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Content" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="When" Type="DateTimeOffset" Nullable="false" />
+    <Property Name="Room_Key" Type="Int32" />
+    <Property Name="User_Key" Type="Int32" />
+    <NavigationProperty Name="Room" Relationship="ModelEntities.FK_ChatMessages_ChatRooms_Room_Key" FromRole="Room" ToRole="Messages" />
+    <NavigationProperty Name="User" Relationship="ModelEntities.FK_ChatMessages_ChatUsers_User_Key" FromRole="User" ToRole="Messages" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="User_Id" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Guid" Type="Guid" Nullable="false" />
+    <Property Name="Agent_Id" Type="Int32" Nullable="false" />
+    <Property Name="GenderId" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="Invitation_Code" Type="Guid" />
+    <Property Name="Reference_Code" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="NotificationEnum" Type="Int32" />
+    <NavigationProperty Name="Member_CreditAccount" Relationship="ModelEntities.FK_Member_CreditAccount_Member" FromRole="Member" ToRole="Member_CreditAccount" />
+    <NavigationProperty Name="Member_CreditTransaction" Relationship="ModelEntities.FK_Member_CreditTransaction_Member" FromRole="Member" ToRole="Member_CreditTransaction" />
+    <NavigationProperty Name="Member_FileArchive" Relationship="ModelEntities.FK_Member_FileArchive_Member" FromRole="Member" ToRole="Member_FileArchive" />
+  </EntityType>
+  <EntityType Name="Member_CreditAccount">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Member_Id" Type="Int32" Nullable="false" />
+    <Property Name="Balance" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="LastUpdate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Member" Relationship="ModelEntities.FK_Member_CreditAccount_Member" FromRole="Member_CreditAccount" ToRole="Member" />
+  </EntityType>
+  <EntityType Name="Member_CreditTransaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Member_Id" Type="Int32" Nullable="false" />
+    <Property Name="DateTimeStamp" Type="DateTime" Nullable="false" />
+    <Property Name="TransactionEnum" Type="Int32" Nullable="false" />
+    <Property Name="ProcessBy" Type="Guid" Nullable="false" />
+    <Property Name="Deposite" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="withdraw" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Note" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Member" Relationship="ModelEntities.FK_Member_CreditTransaction_Member" FromRole="Member_CreditTransaction" ToRole="Member" />
+  </EntityType>
+  <EntityType Name="Member_FileArchive">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Member_Id" Type="Int32" Nullable="false" />
+    <Property Name="Filename" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Extension" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="Size" Type="Int64" Nullable="false" />
+    <Property Name="MIME" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="SortOrder" Type="Int32" Nullable="false" />
+    <Property Name="IsDefault" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Member" Relationship="ModelEntities.FK_Member_FileArchive_Member" FromRole="Member_FileArchive" ToRole="Member" />
+  </EntityType>
+  <Association Name="FK__aspnet_Me__Appli__2FCF1A8A">
+    <End Role="aspnet_Applications" Type="ModelEntities.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="ModelEntities.aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pa__Appli__2B0A656D">
+    <End Role="aspnet_Applications" Type="ModelEntities.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Paths" Type="ModelEntities.aspnet_Paths" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Paths">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__2BFE89A6">
+    <End Role="aspnet_Applications" Type="ModelEntities.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Roles" Type="ModelEntities.aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__29221CFB">
+    <End Role="aspnet_Applications" Type="ModelEntities.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Users" Type="ModelEntities.aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__30C33EC3">
+    <End Role="aspnet_Users" Type="ModelEntities.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="ModelEntities.aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__2CF2ADDF">
+    <End Role="aspnet_Paths" Type="ModelEntities.aspnet_Paths" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="ModelEntities.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__PathI__31B762FC">
+    <End Role="aspnet_Paths" Type="ModelEntities.aspnet_Paths" Multiplicity="1" />
+    <End Role="aspnet_PersonalizationAllUsers" Type="ModelEntities.aspnet_PersonalizationAllUsers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Paths">
+        <PropertyRef Name="PathId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationAllUsers">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pe__UserI__2DE6D218">
+    <End Role="aspnet_Users" Type="ModelEntities.aspnet_Users" Multiplicity="0..1" />
+    <End Role="aspnet_PersonalizationPerUser" Type="ModelEntities.aspnet_PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__2EDAF651">
+    <End Role="aspnet_Users" Type="ModelEntities.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Profile" Type="ModelEntities.aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Member_CreditAccount_Member">
+    <End Role="Member" Type="ModelEntities.Member" Multiplicity="1" />
+    <End Role="Member_CreditAccount" Type="ModelEntities.Member_CreditAccount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Member_CreditAccount">
+        <PropertyRef Name="Member_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Member_CreditTransaction_Member">
+    <End Role="Member" Type="ModelEntities.Member" Multiplicity="1" />
+    <End Role="Member_CreditTransaction" Type="ModelEntities.Member_CreditTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Member_CreditTransaction">
+        <PropertyRef Name="Member_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Member_FileArchive_Member">
+    <End Role="Member" Type="ModelEntities.Member" Multiplicity="1" />
+    <End Role="Member_FileArchive" Type="ModelEntities.Member_FileArchive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Member_FileArchive">
+        <PropertyRef Name="Member_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="aspnet_UsersInRoles">
+    <End Role="aspnet_Roles" Type="ModelEntities.aspnet_Roles" Multiplicity="*" />
+    <End Role="aspnet_Users" Type="ModelEntities.aspnet_Users" Multiplicity="*" />
+  </Association>
+  <EntityType Name="ChatRoom">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Type="Int32" Name="Key" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="LastNudged" />
+    <Property Type="String" Name="Name" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Creator_Key" />
+    <Property Type="Boolean" Name="Private" Nullable="false" />
+    <Property Type="String" Name="InviteCode" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Type="Boolean" Name="Closed" Nullable="false" />
+    <Property Type="String" Name="Topic" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Welcome" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Guid" Name="Request_Id" Nullable="false" />
+    <NavigationProperty Name="Messages" Relationship="ModelEntities.FK_ChatMessages_ChatRooms_Room_Key" FromRole="Messages" ToRole="Room" />
+    <NavigationProperty Name="Creator" Relationship="ModelEntities.FK_ChatRooms_ChatUsers_Creator_Key" FromRole="Creator" ToRole="OwnedRooms" />
+    <NavigationProperty Name="Users" Relationship="ModelEntities.ChatRoomChatUsers" FromRole="Users" ToRole="Rooms" />
+    <NavigationProperty Name="AllowedUsers" Relationship="ModelEntities.ChatUserChatRooms" FromRole="AllowedUsers" ToRole="AllowedRooms" />
+  </EntityType>
+  <EntityType Name="ChatUser">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Type="Int32" Name="Key" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Id" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Name" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Hash" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="LastActivity" Nullable="false" />
+    <Property Type="DateTime" Name="LastNudged" />
+    <Property Type="Int32" Name="Status" Nullable="false" />
+    <Property Type="String" Name="HashedPassword" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Salt" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Note" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AfkNote" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsAfk" Nullable="false" />
+    <Property Type="String" Name="Flag" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Identity" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Email" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="IsAdmin" Nullable="false" />
+    <Property Type="Int32" Name="Member_Id" Nullable="false" />
+    <NavigationProperty Name="ConnectedClients" Relationship="ModelEntities.FK_ChatClients_ChatUsers_User_Key" FromRole="User" ToRole="ConnectedClients" />
+    <NavigationProperty Name="Messages" Relationship="ModelEntities.FK_ChatMessages_ChatUsers_User_Key" FromRole="Messages" ToRole="User" />
+    <NavigationProperty Name="OwnedRooms" Relationship="ModelEntities.FK_ChatRooms_ChatUsers_Creator_Key" FromRole="OwnedRooms" ToRole="Creator" />
+    <NavigationProperty Name="Rooms" Relationship="ModelEntities.ChatRoomChatUsers" FromRole="Rooms" ToRole="Users" />
+    <NavigationProperty Name="AllowedRooms" Relationship="ModelEntities.ChatUserChatRooms" FromRole="AllowedRooms" ToRole="AllowedUsers" />
+  </EntityType>
+  <Association Name="FK_ChatClients_ChatUsers_User_Key">
+    <End Type="ModelEntities.ChatUser" Role="User" Multiplicity="1" />
+    <End Type="ModelEntities.ChatClient" Role="ConnectedClients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Key" />
+      </Principal>
+      <Dependent Role="ConnectedClients">
+        <PropertyRef Name="User_Key" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChatMessages_ChatRooms_Room_Key">
+    <End Type="ModelEntities.ChatRoom" Role="Messages" Multiplicity="0..1" />
+    <End Type="ModelEntities.ChatMessage" Role="Room" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Messages">
+        <PropertyRef Name="Key" />
+      </Principal>
+      <Dependent Role="Room">
+        <PropertyRef Name="Room_Key" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChatMessages_ChatUsers_User_Key">
+    <End Type="ModelEntities.ChatUser" Role="Messages" Multiplicity="0..1" />
+    <End Type="ModelEntities.ChatMessage" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Messages">
+        <PropertyRef Name="Key" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="User_Key" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChatRooms_ChatUsers_Creator_Key">
+    <End Type="ModelEntities.ChatUser" Role="OwnedRooms" Multiplicity="0..1" />
+    <End Type="ModelEntities.ChatRoom" Role="Creator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OwnedRooms">
+        <PropertyRef Name="Key" />
+      </Principal>
+      <Dependent Role="Creator">
+        <PropertyRef Name="Creator_Key" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ChatRoomChatUsers">
+    <End Type="ModelEntities.ChatRoom" Role="Users" Multiplicity="*" />
+    <End Type="ModelEntities.ChatUser" Role="Rooms" Multiplicity="*" />
+  </Association>
+  <Association Name="ChatUserChatRooms">
+    <End Type="ModelEntities.ChatRoom" Role="AllowedUsers" Multiplicity="*" />
+    <End Type="ModelEntities.ChatUser" Role="AllowedRooms" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Chat_Request">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="RequestById" Nullable="false" />
+    <Property Type="String" Name="RequestByKey" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="RequestedId" Nullable="false" />
+    <Property Type="String" Name="RequestedKey" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="ResultEnum" />
+    <Property Type="DateTime" Name="TimeStamp" Nullable="false" />
+    <Property Type="Guid" Name="Guid" Nullable="false" />
+    <Property Type="Boolean" Name="HasResponde" Nullable="false" />
+    <Property Type="Boolean" Name="IsActive" Nullable="false" />
+    <Property Type="Boolean" Name="IsVideoOn" Nullable="false" />
+  </EntityType>
+</Schema>

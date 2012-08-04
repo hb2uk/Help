@@ -1,0 +1,198 @@
+﻿
+
+  <Link rel="stylesheet" href="~/chat.css" type="text/css" />
+
+
+    <script id="new-message-template" type="text/x-jquery-tmpl">
+        <li class="message ${highlight} clearfix" id="m-${id}" data-name="${name}" data-timestamp="${date}">
+            <div class="left">
+                {{if showUser}}
+                <img src="http://true-alliance.net/Content/MemberImages/${imagefolder}/thumb/${defaultimage}" class="gravatar" />
+                <span class="name">${trimmedName}</span>
+                {{/if}}
+                <span class="state"></span>
+            </div>
+            <div class="middle">
+                {{html message}}
+            </div>
+            <div class="right">
+                <span id="t-${id}" class="time" title="${fulldate}">${when}</span>
+            </div>
+        </li>
+    </script>
+    <script id="new-notification-template" type="text/x-jquery-tmpl">
+        <li class="${type}" data-timestamp="${date}">
+            <div class="content">
+                {{html message}}
+                <a class="info" href="#"></a>
+            </div>
+            <div class="right">
+                <span class="time" title="${fulldate}">${when}</span>
+            </div>
+        </li>
+    </script>
+    <script id="message-separator-template" type="text/x-jquery-tmpl">
+        <li class="message-separator">
+        </li>
+    </script>
+    <script id="new-user-template" type="text/x-jquery-tmpl">
+        <li class="user" data-name="${name}">
+            <img class="gravatar" src="http://true-alliance.net/Content/MemberImages/${imagefolder}/thumb/${defaultimage}" width="50" />
+            <div class="details">
+                <span class="name">${name}</span>
+                <span class="admin">{{if admin}}(admin){{/if}}</span>
+                <span class="note{{if noteClass}} ${noteClass}{{/if}}" {{if note}}title="${note}"{{/if}}></span>
+                <span class="flag{{if flagClass}} ${flagClass}{{/if}}" {{if flag}}title="${country}"{{/if}}></span>
+            </div>
+        </li>
+    </script>
+    <script id="new-userlist-template" type="text/x-jquery-tmpl">
+        <h3 class="userlist-header nav-header">
+            ${listname}
+        </h3>
+        <div>
+            <ul id="${id}" />
+        </div>
+    </script>
+    <script id="new-request-template" type="text/x-jquery-tmpl">
+        <li class="requests" data-name="${Key}">
+        <img class="gravatar" src="http://true-alliance.net/Content/MemberImages/${imagefolder}/thumb/${defaultimage}" />
+                        <div class="details">
+                <span class="name">${name}</span>
+            <div class="timer_frame">
+            <div id="$timer" class="timer" ></div>
+        </div>
+            <div class="count_frame">
+            <div id="count" class="count" ></div>
+           Count ${Count}
+        </div>
+            </div>
+                    <div class="accept_chat_button">
+        </div>
+        </li>
+    </script>
+    <script id="new-tab-template" type="text/x-jquery-tmpl">
+        <li id="tabs-${id}" class="room" data-name="${name}" data-closed="${closed}" role="tab">
+            <span class="lock"></span>
+            <span class="readonly"></span>
+            <button> 
+                <span class="content">${name}</span>
+            </button>
+            <div class="close"></div>
+        </li>
+    </script>
+</head>
+<body>
+  <section id="page" role="application">
+    <header id="heading" role="heading">
+      <div class="banner" role="banner">
+        <div class="TALogo" id="logo"></div>
+        <div>
+        </div>
+      </div>
+          <div style="clear: both">
+    </div>
+    <nav>
+      <ul id="tabs" role="tablist">
+        <li id="tabs-lobby" class="current lobby" data-name="Lobby" role="tab">
+          <button accesskey="l">
+            <span class="content">Lobby</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    </header>
+    <div id="chat-area" role="tabpanel">
+      <ul id="messages-lobby" class="messages current" role="log">
+      </ul>
+      <form id="users-filter-form" action="#">
+      <input id="users-filter" class="filter" type="text" />
+      </form>
+      <ul id="requestlist-chatrequests" class="chat_requests">
+      </ul>
+      <ul id="test"></ul>
+      <div id="credit" class="credit_panel" >Credit Balance: <span class="credit_overview"></span></div>
+      <ul id="userlist-lobby" class="users current">
+      </ul>
+      <ul id="userlist-online" class="users current">
+      </ul>
+      <div id="preferences">
+        <a class="sound" title="audible notifications"></a>
+        <a class="richness" title="toggle rich-content"></a>
+        <a class="toast" title="popup notifications" aria-haspopup="true"></a>
+        <a class="download" title="download messages" aria-haspopup="true"></a>
+      </div>
+      <form id="send-message" action="#">
+      <div id="message-box">
+        <textarea id="new-message" autocomplete="off" aria-autocomplete="none" accesskey="m"></textarea>
+      </div>
+      <input type="submit" id="send" value="Send" class="send" />
+      <input type="submit" id="closechatsession" value="Close" class="closechatsession" />
+      <div id="message-instruction">
+        Type then press TAB to auto-complete nicknames
+      </div>
+      </form>
+    </div>
+    <audio src="Content/sounds/notification.wav" id="noftificationSound" hidden="hidden" aria-hidden="true">
+    </audio>
+    <section aria-hidden="true" aria-haspopup="true">
+      <div id="disconnect-dialog" class="modal hide fade">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal">&times;</a>
+          <div class="TALogo" id="logo"></div><h3>True-Alliance Error</h3>
+        </div>
+        <div class="modal-body">
+          <p>
+            There was an error contacting the server, please refresh in a few minutes.
+          </p>
+        </div>
+      </div>
+      <div id="download-dialog" class="modal hide fade">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal">&times;</a>
+          <h3>Download Messages</h3>
+        </div>
+        <div class="modal-body">
+          <p>
+            Select date range for messages:
+          </p>
+          <p>
+            <select id="download-range">
+              <option value="last-hour">Last hour</option>
+              <option value="last-day">Last day</option>
+              <option value="last-week">Last week</option>
+              <option value="last-month">Last month</option>
+              <option value="all">All</option>
+            </select>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-primary" id="download-dialog-button">Download</a>
+        </div>
+      </div>
+      <div id="jabbr-update" class="modal hide fade">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal">&times;</a>
+          <div class="TALogo" id="logo"></div><h3>True-Alliance Update</h3>
+        </div>
+        <div class="modal-body">
+          <p>
+            Refresh your browser to get the latest. Auto update will take place in 15 seconds.
+          </p>
+        </div>
+      </div>
+      <div id="jabbr-login" class="modal hide fade">
+        <div class="modal-header">
+          <a class="close" data-dismiss="modal">&times;</a>
+          <h3>True-Alliance Login</h3>
+        </div>
+        <div class="modal-body">
+          <div id="janrainEngageEmbed">
+          </div>
+        </div>
+      </div>
+    </section>
+  </section> 
+
+  <script type="text/javascript" src="~/signalr/hubs"></script>
+
